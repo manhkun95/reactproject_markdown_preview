@@ -1,8 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import TrackList from './components/TrackList';
+import App from './components/App';
 
 ReactDOM.render(
-  <TrackList />,
+  <div>
+    <App />
+  </div>
+  ,
   document.getElementById('app')
 );
